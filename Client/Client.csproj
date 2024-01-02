@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Server\Models\Chat.cs" Link=".\Client\Models\Chat.cs" />
+    <Compile Include="..\Server\Models\Request\Request.cs" Link=".\Client\Models\Request\Request.cs" />
+    <Compile Include="..\Server\Models\Request\RequestCrateChat.cs" Link=".\Client\Models\Request\RequestCrateChat.cs" />
+    <Compile Include="..\Server\Models\Response\Response.cs" Link=".\Client\Models\Response\Response.cs" />
+    <Compile Include="..\Server\Models\Response\ResponseCreateChat.cs" Link=".\Client\Models\Response\ResponseCreateChat.cs" />
+  </ItemGroup>
+
+</Project>
